@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: helvetica;
 }
 
 .container {
@@ -15,45 +16,32 @@
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 .borded {
     border: 2px dashed black;
 }
 
 header {
     min-height: 50px;
-    background-color: #00008B;
+    background-color: #255EE9;
 }
 
-:root {
-    --yellow: #DAA520;
-    --grey: #D3D3D3;
-    --purple: #EE82EE;
-    --skyblue: #1E90FF;
-    --pink: #FFC0CB;
-    --green: #228B22;
-    --black: #23272A;
-    --lightgreen: #20B2AA;
-    --peach: #F08080;
-    --aqua: #7FFFD4;
-    --pink2: #FFB6C1;
-}
-
-.yellow {
-    background-color: var(--yellow);
-}
-
-.blue {
-    background-color: var(--blue);
-}
-
-.grey {
-    background-color: var(--grey);
+.bg {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: top center;
 }
 
 .h-col {
-    border: 2px dashed black;
     width: 20%;
     padding: 10px 10px;
+}
+
+.h-col img {
+    max-height: 1.5rem;
 }
 
 .h-col:nth-of-type(2) {
@@ -63,27 +51,38 @@ header {
 .list {
     justify-content: center;
     list-style: none;
-}
-
-.list li {
-    padding: 0px 20px;
+    gap: 25px;
 }
 
 .list a {
-    text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .h-col:last-of-type {
     text-align: right;
 }
+
+.btn {
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-small {
+    padding: 0.7rem 1rem;
+}
+
+
 /* qui inizia il main */
 .section {
     padding: 2rem 0rem;
 }
 
 .box {
-    background-color: var(--purple);
     max-width: 80%;
     min-height: 300px;
     margin: 0 auto;
@@ -101,7 +100,6 @@ header {
 
 .slide:last-of-type {
     min-width: 40%;
-    background-color: var(--pink);
 }
 
 .reverse {
