@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: helvetica;
+    font-family: whitney;
+}
+
+@font-face {
+    font-family: whitney;
+    src: url(../font/whitneymedium.otf);
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1100px;
     min-width: 300px;
     margin: 0 auto;
     padding: 1rem 1rem;
@@ -19,6 +24,41 @@
 a {
     text-decoration: none;
 }
+
+h1 {
+    font-size: 3.4rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    
+}
+
+.section {
+    padding: 2rem 0rem;
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
+
+.btn-small {
+    padding: 0.7rem 1rem;
+}
+
+/* fine regole di base e inzio header */
 
 .borded {
     border: 2px dashed black;
@@ -62,30 +102,25 @@ header {
     text-align: right;
 }
 
-.btn {
-    border-radius: 30px;
-    padding: 1rem 1.5rem;
-}
-
-.btn-white {
-    background-color: white;
-    color: black;
-}
-
-.btn-small {
-    padding: 0.7rem 1rem;
-}
-
-
 /* qui inizia il main */
-.section {
-    padding: 2rem 0rem;
-}
 
 .box {
-    max-width: 80%;
+    max-width: 75%;
     min-height: 300px;
     margin: 0 auto;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box p {
+    padding: 35px 20px;
+}
+
+.btn img {
+    max-height: 1.5rem;
+    padding-top: 10px;
+    padding-right: 10px;
 }
 
 .first {
@@ -146,3 +181,4 @@ hr {
     padding: 5px;
     background-color: var(--pink2);
 }
+
