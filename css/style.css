@@ -11,6 +11,10 @@
     src: url(../font/whitneymedium.otf);
 }
 
+.text-center {
+    text-align: center;
+}
+
 .container {
     max-width: 1100px;
     min-width: 300px;
@@ -35,6 +39,10 @@ h3 {
     padding-bottom: 1.5rem;
 }
 
+h5 {
+    font-size: 2rem;
+}
+
 p {
     font-size: 1.2rem;
     line-height: 1.7rem;
@@ -47,7 +55,7 @@ p {
 
 .btn {
     border-radius: 30px;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
 }
 
 .btn-white {
@@ -57,6 +65,11 @@ p {
 
 .btn-black {
     background-color: black;
+    color: white;
+}
+
+.btn-purple {
+    background-color: #8EA1E1;
     color: white;
 }
 
@@ -126,7 +139,8 @@ header {
     padding: 35px 20px;
 }
 
-.btn img {
+.btn svg {
+    display: inline-block;
     max-height: 1.5rem;
     padding-top: 10px;
     padding-right: 10px;
@@ -151,8 +165,12 @@ header {
     padding-top: 2rem;
 }
 
-.padded {
+.padded-top {
     padding-top: 4rem;
+}
+
+.padded-bottom {
+    padding-bottom: 4rem;
 }
 
 svg {
@@ -172,13 +190,33 @@ svg {
 }
 
 .anbox {
-    width: 100%;
-    min-height: 500px;
-    background-color: var(--green);
+    min-width: 100%;
+}
+
+.anbox .text {
+    text-align: center;
+    padding: 3rem 4rem 0rem 4rem;
+}
+
+.anbox img {
+    min-width: 100%;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: 80% 15%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem 0rem;
+}
+
+.white-arrow {
+    fill: white;
 }
 
 footer {
-    background-color: var(--black);
+    background-color: #23272A;;
 }
 
 .footbox {
