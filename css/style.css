@@ -65,7 +65,7 @@ p {
 }
 
 .grey {
-    background-color: grey;
+    background-color: #F6F6F6;
 }
 /* fine regole di base e inzio header */
 
@@ -147,12 +147,24 @@ header {
 }
 
 .slide:last-of-type {
-    max-width: 30%;
+    max-width: 21rem;
     padding-top: 2rem;
+}
+
+svg {
+    display: block;
+}
+
+.turned {
+    transform: rotate(180deg);
 }
 
 .reverse {
     flex-direction: row-reverse;
+}
+
+.end {
+    justify-content: flex-end;
 }
 
 .anbox {
