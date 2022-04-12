@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.borded {
+    border: 2px dashed black;
+}
+
+header {
+    min-height: 50px;
+    background-color: #00008B;
+}
+
+:root {
+    --yellow: #DAA520;
+    --grey: #D3D3D3;
+    --purple: #EE82EE;
+    --skyblue: #1E90FF;
+    --pink: #FFC0CB;
+    --green: #228B22;
+    --black: #23272A;
+    --lightgreen: #20B2AA;
+    --peach: #F08080;
+    --aqua: #7FFFD4;
+    --pink2: #FFB6C1;
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.grey {
+    background-color: var(--grey);
+}
+
+.h-col {
+    border: 2px dashed black;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.h-col:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+.list {
+    justify-content: center;
+    list-style: none;
+}
+
+.list li {
+    padding: 0px 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
+}
+
+.h-col:last-of-type {
+    text-align: right;
+}
+/* qui inizia il main */
+.section {
+    padding: 2rem 0rem;
+}
+
+.box {
+    background-color: var(--purple);
+    max-width: 80%;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+.first {
+    max-width: 100%;
+    min-height: 300px;
+}
+
+.slide:first-of-type {
+    flex-grow: 1;
+    background-color: var(--skyblue);
+}
+
+.slide:last-of-type {
+    min-width: 40%;
+    background-color: var(--pink);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.anbox {
+    width: 100%;
+    min-height: 500px;
+    background-color: var(--green);
+}
+
+footer {
+    background-color: var(--black);
+}
+
+.footbox {
+    min-height: 500px;
+}
+
+.f-col {
+    flex-grow: 1;
+    background-color: var(--lightgreen);
+}
+
+.f-col:first-of-type {
+    flex-grow: 2;
+    background-color: var(--peach);
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.last {
+    min-height: 50px;
+    background-color: var(--aqua);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butt {
+    padding: 5px;
+    background-color: var(--pink2);
+}
