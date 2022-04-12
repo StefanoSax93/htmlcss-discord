@@ -32,7 +32,7 @@ h1 {
 
 h3 {
     font-size: 3.2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 p {
@@ -134,7 +134,7 @@ header {
 
 .first {
     max-width: 100%;
-    min-height: 550px;
+    min-height: 500px;
 }
 
 .slide:first-of-type {
@@ -149,6 +149,10 @@ header {
 .slide:last-of-type {
     max-width: 21rem;
     padding-top: 2rem;
+}
+
+.padded {
+    padding-top: 4rem;
 }
 
 svg {
