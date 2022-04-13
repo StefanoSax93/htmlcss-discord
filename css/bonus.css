@@ -1,0 +1,21 @@
+a:hover {
+    text-decoration: underline;
+}
+
+a.btn:hover {
+    text-decoration: none;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+
+.btn-white:hover {
+    fill: #5865f2;
+    color: #5865f2;
+}
+
+.btn-purple:hover {
+    background-color: hsl(228,calc(var(--saturation-factor, 1)*75%),80%);;
+}
+
+.btn-black:hover {
+    background-color: #36393f;
+}
