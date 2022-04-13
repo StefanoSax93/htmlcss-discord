@@ -80,6 +80,30 @@ p {
 .grey {
     background-color: #F6F6F6;
 }
+
+.padded-top {
+    padding-top: 4rem;
+}
+
+.padded-bottom {
+    padding-bottom: 4rem;
+}
+
+svg {
+    display: block;
+}
+
+.turned {
+    transform: rotate(180deg);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.end {
+    justify-content: flex-end;
+}
 /* fine regole di base e inzio header */
 
 .borded {
@@ -131,7 +155,6 @@ header {
     min-height: 300px;
     margin: 0 auto;
     color: white;
-    text-align: center;
     padding-top: 40px;
 }
 
@@ -165,36 +188,11 @@ header {
     padding-top: 2rem;
 }
 
-.padded-top {
-    padding-top: 4rem;
-}
-
-.padded-bottom {
-    padding-bottom: 4rem;
-}
-
-svg {
-    display: block;
-}
-
-.turned {
-    transform: rotate(180deg);
-}
-
-.reverse {
-    flex-direction: row-reverse;
-}
-
-.end {
-    justify-content: flex-end;
-}
-
 .anbox {
     min-width: 100%;
 }
 
 .anbox .text {
-    text-align: center;
     padding: 3rem 4rem 0rem 4rem;
 }
 
@@ -219,34 +217,57 @@ footer {
     background-color: #23272A;;
 }
 
-.footbox {
-    min-height: 500px;
-}
-
 .f-col {
     flex-grow: 1;
-    background-color: var(--lightgreen);
+    min-width: 11.5rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.9rem;
+    color: white;
+}
+
+.f-col h5, .f-col h6 {
+    color: #8EA1E1;
+}
+
+.flag {
+    max-height: 1rem;
+    vertical-align: middle;
+}
+
+select {
+    background-color: #23272A;
+    color: white;
+    border: none;
 }
 
 .f-col:first-of-type {
     flex-grow: 2;
-    background-color: var(--peach);
+    gap: 1.6rem;
+}
+
+.social {
+    gap: 1.3rem;
+}
+
+.social svg {
+    max-width: 1.3rem;
+    fill: white;
+}
+
+.f-col a {
+    color: white;
 }
 
 hr {
     margin: 20px 0px;
+    background-color: #8EA1E1;
+    border: 0.5px solid #8EA1E1;
 }
 
 .last {
     min-height: 50px;
-    background-color: var(--aqua);
-    display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.butt {
-    padding: 5px;
-    background-color: var(--pink2);
 }
 
